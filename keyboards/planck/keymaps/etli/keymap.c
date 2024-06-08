@@ -116,7 +116,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 /* etli Custom MO(9)
  * ,-----------------------------------------------------------------------------------.
- * |RBGMOD|Plain |Breath|Rainbo|Swirl |Snake |Knight| Xmas |Gradie| Test |      |      |
+ * |RBGMOD|Plain |Breath|Rainbo|Swirl |Snake |Knight| Xmas |Gradie| Test |Twinkl|      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
  * |RBGTOG| HUE- | HUE+ | SAT- | SAT+ |BRGTH-|BRGTH+| SPD- | SPD+ |      |      |      |
  * |------+------+------+------+------+------+------+------+------+------+------+------|
@@ -126,10 +126,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  * `-----------------------------------------------------------------------------------'
  */
 [9] = LAYOUT_planck_grid(
-    RGB_MOD, RGB_M_P, RGB_M_B, RGB_M_R, RGB_M_SW, RGB_M_SN, RGB_M_K, RGB_M_X, RGB_M_G, RGB_M_T, _______, _______,
-    RGB_TOG, RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI,  RGB_VAD,  RGB_VAI, RGB_SPI, RGB_SPD, _______, _______, _______,
-    _______, _______, _______, _______, _______,  _______,  _______, _______, _______, _______, _______, _______,
-    _______, MU_ON,   MU_OFF,  MU_NEXT, _______,  _______,  _______, _______, AU_PREV, AU_NEXT, AU_ON,   AU_OFF
+    RGB_MOD, RGB_M_P, RGB_M_B, RGB_M_R, RGB_M_SW, RGB_M_SN, RGB_M_K, RGB_M_X, RGB_M_G, RGB_M_T, RGB_M_TW, _______,
+    RGB_TOG, RGB_HUD, RGB_HUI, RGB_SAD, RGB_SAI,  RGB_VAD,  RGB_VAI, RGB_SPI, RGB_SPD, _______, _______,  _______,
+    _______, _______, _______, _______, _______,  _______,  _______, _______, _______, _______, _______,  _______,
+    _______, MU_ON,   MU_OFF,  MU_NEXT, _______,  _______,  _______, _______, AU_PREV, AU_NEXT, AU_ON,    AU_OFF
 )
 
 /* Colemak
